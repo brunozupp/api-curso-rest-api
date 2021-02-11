@@ -1,0 +1,8 @@
+Módulo - Controller
+
+* Diferença entre os retornos ActionResult e ActionResult<T>
+- no ActionResult eu só posso retornar objetos encapsulados pelos objetos de status code como o Ok(), NoContent(), BadRequest()... nunca posso retornar somente o valor que eu quero.
+- no ActionResult<T> eu posso retornar o valor sem ser em um objeto de status code pois ele sabe o tipo de formatação (T) a ser aderido.
+
+* [FromQuery]
+- tem algum atributo sendo passado via query string que não faz parte da rota.
